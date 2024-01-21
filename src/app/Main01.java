@@ -8,8 +8,8 @@ public class Main01 {
     private static final double COEFFICIENT  = 1.61;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Converting miles to kilometers :");
-        System.out.println("Miles :");
+        System.out.println("Converting kilometers to miles :");
+        System.out.println("Kilometers :");
         miles = scanner.nextDouble();
         action = converts(miles);
         double output = output();
